@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        tools:showIn="navigation_view">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/about"
+                android:title="Home"
+                android:icon="@drawable/ic_home_black_24dp">
+            </item>
+            <item
+                android:id="@+id/hotels"
+                android:title="Hotels"
+                android:icon="@drawable/ic_hotel_black_24dp">
+            </item>
+            <item
+                android:id="@+id/res"
+                android:title="Restaurants"
+                android:icon="@drawable/ic_restaurant_black_24dp">
+            </item>
+            <item
+                android:id="@+id/tour"
+                android:title="Tour"
+                android:icon="@drawable/ic_airplanemode_active_black_24dp">
+            </item>
+            <item
+                android:id="@+id/emergency"
+                android:title="Emergency Contacts"
+                android:icon="@drawable/ic_call_black_24dp">
+            </item>
+        </group>
+<!--
+        <item android:title="communicate">
+            <menu>
+                <item
+                    android:id="@+id/emergency"
+                    android:title="Emergency Contacts"
+                    android:icon="@drawable/ic_call_black_24dp">
+                </item>
+            </menu>
+        </item>
+-->
+    </menu>
